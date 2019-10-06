@@ -4,6 +4,8 @@
   "description": "Dockerize node application Create docker image and container",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
+    "log":"echo \"Loging to screen\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,8 @@
   "homepage": "https://github.com/shahabyounas/docker-app#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
   }
 }

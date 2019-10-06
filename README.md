@@ -1,2 +1,2 @@
-# dcoker-app
-Dockerize node application 
+# docker-app
+Dockerize node application Create docker image and container
